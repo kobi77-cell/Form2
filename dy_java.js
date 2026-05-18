@@ -1,0 +1,1 @@
+alert("la fonction en question fonctionne correctement");
