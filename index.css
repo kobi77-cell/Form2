@@ -102,31 +102,57 @@ h1{
 .bande_text{
     display: flex;
     background: var(--mini_header);
-    width: 144rem;
+    width: 100vw; 
     height: 64.5rem;
     justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 /* partie 1 */
 .pa1{
     width: 32.8rem;
     height: 20.2rem;
-    margin: 22.2rem 11.7rem 22.1rem 11.3rem
+    margin-left: 5.3rem;
+    margin-right: 5.3rem;
+    /* margin: 22.2rem 11.7rem 22.1rem 5.3rem */
 }
 
 .paa1{
     color: var(--text);
     font-size: 10.1rem;
+    line-height: 9rem; /* ajuste l'interligne du titre pour éviter qu'il ne pousse vers le bas a ne pas oublier */
+    margin: 0;
 }
 
 /* partie 2 */
 .pa2{
     width: 80rem;
-    height: 42rem;
-    margin: 12rem 8.2rem 11.2rem 0;
+    /* je retire la hauteur fixe height: 42rem; pour éviter le débordement */
+    max-height: 100%; /* s'assure que le bloc ne dépasse jamais la section*/
+    flex-direction: column;
+    gap: 2.5rem; /* gère proprement l'espace entre les paragraphe */
+    margin-right: 8.2rem;
+    /* margin: 12rem 8.2rem 11.2rem 1em; */
+    /* padding-left: 10rem; */
 }
 
 .paa2{
     color: var(--text);
     font-size: 2.2rem;
+    line-height: 3rem;
+    margin: 0;
+}
+
+.tof{
+    display: flex;
+    width: 100vw;
+    height: 60rem;
+    overflow: hidden;
+}
+
+.tof tt{
+    width: 100%;
+    height: 60rem;
+    object-fit: cover;
 }
