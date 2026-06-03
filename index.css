@@ -164,31 +164,35 @@ h1{
     width: 100vw;
     height: 59.8rem;
     gap: 2.5rem;
-    /* justify-content: center; */
-    /* align-items: center; */
+
 }
 
 .part1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     width: 53.9rem;
     height: 29.9rem;
-    margin: 14.95rem 22.7rem 14.95rem 8rem;
+    margin: 13.95rem 12.5rem 14.95rem 5rem;
 }
 
-.part1 h6{
+.title{
+    margin: 0;
+    /* margin-right: 10rem; */
+}
+.title h6{
     font-size: 1.8rem;
     color: var(--mini_header);
     margin: 0;
-    padding-right: 2rem;
 }
 
 .part1 h3{
     font-size: 5.6rem;
     color: var(--text_color);
     margin: 0;
-    padding-right: 2rem;
+    margin-right: 5.1rem;
+    
 }
 
 .p1{
@@ -201,4 +205,5 @@ h1{
     font-size: 1.8rem;
     color: var(--text_color);
     margin: 0;
+    /*margin-right: 7rem;*/
 }
