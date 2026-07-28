@@ -215,12 +215,82 @@ h1{
 }
 
 /* parti des sections des hotels */
+.logg{
+    display: flex;
+    justify-content: space-between;
+    width: 144rem;
+    height: 47.5rem;
+}
+
 .log{
     display: flex;
-    width:144rem;
-    height: 475rem;
+    flex-wrap: wrap;
+    width: 128rem;
+    height: 28.3rem;
+    /* align-items: start; */
+    padding: 9.6rem 8.8rem 9.6rem 8.8rem;
+    gap: 6.4rem;
+    margin: 0;
 }
-.hotel{
+
+.hotel1{
     display: flex;
-    size: 1.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+.hotel1 h2{
+    display: flex;
+    font-size: 4.3rem;
+    margin: 0;
+    color: var(--text_color);
+    margin-bottom: 3.2rem;
+  
+}
+
+.hotel2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+.hotel2 h2{
+    display: flex;
+    font-size: 4.3rem;
+    margin: 0;
+    color: var(--text_color);
+    margin-bottom: 3.2rem;
+}
+
+.hotel3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+} 
+
+.hotel3 h2{
+    display: flex;
+    font-size: 4.3rem;
+    margin: 0;
+    color: var(--text_color);
+    margin-bottom: 3.2rem;
+}
+
+.paragrah{
+    font-size: 1.8rem;
+    margin: 0;
+    color: var(--text_color);
+    opacity: 80%;
+}
+
+.bout{
+    width: 11.6rem;
+    height: 6rem;
+    border: var(--mini_header) 1px solid;
+    background-color: white;
+    font-size: 2.2rem;
+    font-family: var(--police);
+    color: var(--mini_header);
+    margin-top: 3.2rem;
 }
